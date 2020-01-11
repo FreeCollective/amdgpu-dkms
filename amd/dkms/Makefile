@@ -60,6 +60,9 @@ else ifeq ("amzn",$(OS_NAME))
 subdir-ccflags-y += -DOS_NAME_AMZ
 else ifeq ("debian",$(OS_NAME))
 subdir-ccflags-y += -DOS_NAME_DEBIAN
+else ifeq ("gentoo",$(OS_NAME))
+subdir-ccflags-y += -DOS_NAME_GENTOO
+OS_VERSION = "0.0"
 else
 subdir-ccflags-y += -DOS_NAME_UNKNOWN
 endif
