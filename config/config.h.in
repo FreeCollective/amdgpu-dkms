@@ -1,0 +1,714 @@
+/* config/config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* drm_driver unload returns int */
+#undef DRM_DRIVER_UNLOAD_RETURN_INT
+
+/* drm_vma_node_verify_access() 2nd argument is drm_file */
+#undef DRM_VMA_NODE_VERIFY_ACCESS_HAS_DRM_FILE
+
+/* vga_switeroo_register_handler() with 1 const arg */
+#undef HAVE_1ARG_CONST_VGA_SWITCHEROO_REGISTER_HANDLER
+
+/* devm_memremap_pages() wants 2 args */
+#undef HAVE_2ARGS_DEVM_MEMREMAP_PAGES
+
+/* drm_gem_map_attach() is available */
+#undef HAVE_2ARGS_DRM_GEM_MAP_ATTACH
+
+/* drm_gem_object_lookup() wants 2 args */
+#undef HAVE_2ARGS_DRM_GEM_OBJECT_LOOKUP
+
+/* whether invalidate_range_start() wants 2 args */
+#undef HAVE_2ARGS_INVALIDATE_RANGE_START
+
+/* release_pages() wants 2 args */
+#undef HAVE_2ARGS_MM_RELEASE_PAGES
+
+/* pm_genpd_remove_device() wants 2 arguments */
+#undef HAVE_2ARGS_PM_GENPD_REMOVE_DEVICE
+
+/* crtc->funcs->set_crc_source() wants 2 args */
+#undef HAVE_2ARGS_SET_CRC_SOURCE
+
+/* vga_switcheroo_register_client() with 2 args */
+#undef HAVE_2ARGS_VGA_SWITCHEROO_REGISTER_CLIENT
+
+/* vga_switeroo_register_handler() with 2 args */
+#undef HAVE_2ARGS_VGA_SWITCHEROO_REGISTER_HANDLER
+
+/* ttm_bo_vm_fault() wants 2 args */
+#undef HAVE_2ARGS_VIRTUAL_MM_FAULT_FUNCTION
+
+/* whether drm_syncobj_find_fence() wants 3 args */
+#undef HAVE_3ARGS_DRM_SYNCOBJ_FIND_FENCE
+
+/* vga_switcheroo_register_client() with 3 args & struct
+   vga_switcheroo_client_ops */
+#undef HAVE_3ARGS_VGA_SWITCHEROO_CLIENT_OPS_VGA_SWITCHEROO_REGISTER_CLIENT
+
+/* whether drm_syncobj_find_fence() wants 4 args */
+#undef HAVE_4ARGS_DRM_SYNCOBJ_FIND_FENCE
+
+/* hash_for_each_possible() wants 4 arguments */
+#undef HAVE_4ARGS_HASH_FOR_EACH_POSSIBLE
+
+/* hash_for_each_possible_rcu() wants 4 arguments */
+#undef HAVE_4ARGS_HASH_FOR_EACH_POSSIBLE_RCU
+
+/* hash_for_each_rcu() wants 4 arguments */
+#undef HAVE_4ARGS_HASH_FOR_EACH_RCU
+
+/* hwmon_device_register_with_groups() wants 4 args */
+#undef HAVE_4ARGS_HWMON_DEVICE_REGISTER_WITH_GROUPS
+
+/* vga_switcheroo_register_client() with 4 args */
+#undef HAVE_4ARGS_VGA_SWITCHEROO_REGISTER_CLIENT
+
+/* whether drm_syncobj_find_fence() wants 5 args */
+#undef HAVE_5ARGS_DRM_SYNCOBJ_FIND_FENCE
+
+/* get_user_pages() wants 5 args */
+#undef HAVE_5ARGS_GET_USER_PAGES
+
+/* hash_for_each_safe() wants 5 arguments */
+#undef HAVE_5ARGS_HASH_FOR_EACH_SAFE
+
+/* whether invalidate_range_start() wants 5 args */
+#undef HAVE_5ARGS_INVALIDATE_RANGE_START
+
+/* get_user_pages() wants 6 args */
+#undef HAVE_6ARGS_GET_USER_PAGES
+
+/* get_user_pages_remote() wants 7 args */
+#undef HAVE_7ARGS_GET_USER_PAGES_REMOTE
+
+/* drm_universal_plane_init() wants 8 args */
+#undef HAVE_8ARGS_DRM_UNIVERSAL_PLANE_INIT
+
+/* get_user_pages() wants 8 args */
+#undef HAVE_8ARGS_GET_USER_PAGES
+
+/* get_user_pages_remote() wants 8 args */
+#undef HAVE_8ARGS_GET_USER_PAGES_REMOTE
+
+/* drm_universal_plane_init() wants 9 args */
+#undef HAVE_9ARGS_DRM_UNIVERSAL_PLANE_INIT
+
+/* whether access_ok(x, x) is available */
+#undef HAVE_ACCESS_OK_WITH_TWO_ARGUMENTS
+
+/* alloc_ordered_workqueue() is available */
+#undef HAVE_ALLOC_ORDERED_WORKQUEUE
+
+/* whether AMDGPU_CHUNK_ID_SCHEDULED_DEPENDENCIES is defined */
+#undef HAVE_AMDGPU_CHUNK_ID_SCHEDULED_DEPENDENCIES
+
+/* amd_iommu_pc_supported() is available */
+#undef HAVE_AMD_IOMMU_PC_SUPPORTED
+
+/* arch_io_reserve_memtype_wc() and arch_io_free_memtype_wc() are available */
+#undef HAVE_ARCH_IO_RESERVE_FREE_MEMTYPE_WC
+
+/* asm/fpu/api.h is available */
+#undef HAVE_ASM_FPU_API_H
+
+/* zone->managed_pages is atomic_long_t */
+#undef HAVE_ATOMIC_MANAGED_PAGES_IN_STRUCT_ZONE
+
+/* backlight_device_register() with 5 args is available */
+#undef HAVE_BACKLIGHT_DEVICE_REGISTER_WITH_5ARGS
+
+/* backlight_properties->type is available */
+#undef HAVE_BACKLIGHT_PROPERTIES_TYPE
+
+/* attribute_group structure contains bin_attrs field */
+#undef HAVE_BIN_ATTRS_IN_ATTRIBUTE_GROUP
+
+/* whether CHUNK_ID_SYNCOBJ_TIMELINE_WAIT_SIGNAL is defined */
+#undef HAVE_CHUNK_ID_SYNCOBJ_TIMELINE_WAIT_SIGNAL
+
+/* whether CHUNK_ID_SYNOBJ_IN_OUT is defined */
+#undef HAVE_CHUNK_ID_SYNOBJ_IN_OUT
+
+/* devcgroup_check_permission() is available */
+#undef HAVE_DEVCGROUP_CHECK_PERMISSION
+
+/* dev_err_ratelimited() is available */
+#undef HAVE_DEV_ERR_RATELIMITED
+
+/* struct dev_pagemap is defined */
+#undef HAVE_DEV_PAGEMAP_STRUCT
+
+/* whether dev_pm_set_driver_flags() is available */
+#undef HAVE_DEV_PM_SET_DRIVER_FLAGS
+
+/* fence is renamed to dma_fence */
+#undef HAVE_DMA_FENCE_DEFINED
+
+/* whether dma_fence_get_stub exits */
+#undef HAVE_DMA_FENCE_GET_STUB
+
+/* dma_fence_set_error() is available */
+#undef HAVE_DMA_FENCE_SET_ERROR
+
+/* down_write_killable() is available */
+#undef HAVE_DOWN_WRITE_KILLABLE
+
+/* drm_dp_mst_connector_early_unregister() is available */
+#undef HAVE_DP_MST_CONNECTOR_EARLY_UNREGISTER
+
+/* drm_dp_mst_connector_late_register() is available */
+#undef HAVE_DP_MST_CONNECTOR_LATE_REGISTER
+
+/* DRIVER_ATOMIC is available */
+#undef HAVE_DRIVER_ATOMIC
+
+/* drm_accurate_vblank_count() is available */
+#undef HAVE_DRM_ACCURATE_VBLANK_COUNT
+
+/* DRM_AMDGPU_FENCE_TO_HANDLE is defined */
+#undef HAVE_DRM_AMDGPU_FENCE_TO_HANDLE
+
+/* drm_atomic_get_old_crtc_state() and drm_atomic_get_new_crtc_state() are
+   available */
+#undef HAVE_DRM_ATOMIC_GET_CRTC_STATE
+
+/* drm_atomic_get_new_plane_state() is available */
+#undef HAVE_DRM_ATOMIC_GET_NEW_PLANE_STATE
+
+/* drm_atomic_helper_best_encoder() is available */
+#undef HAVE_DRM_ATOMIC_HELPER_BEST_ENCODER
+
+/* __drm_atomic_helper_connector_reset() is available */
+#undef HAVE_DRM_ATOMIC_HELPER_CONNECTOR_RESET
+
+/* drm_atomic_helper_disable_all() is available */
+#undef HAVE_DRM_ATOMIC_HELPER_DISABLE_ALL
+
+/* drm_atomic_helper_duplicate_state() is available */
+#undef HAVE_DRM_ATOMIC_HELPER_DUPLICATE_STATE
+
+/* drm_atomic_helper_resume() is available */
+#undef HAVE_DRM_ATOMIC_HELPER_RESUME
+
+/* drm_atomic_helper_shutdown() is available */
+#undef HAVE_DRM_ATOMIC_HELPER_SHUTDOWN
+
+/* drm_atomic_helper_suspend() is available */
+#undef HAVE_DRM_ATOMIC_HELPER_SUSPEND
+
+/* drm_atomic_helper_update_legacy_modeset_state() is available */
+#undef HAVE_DRM_ATOMIC_HELPER_UPDATE_LEGACY_MODESET_STATE
+
+/* drm_atomic_nonblocking_commit() is available */
+#undef HAVE_DRM_ATOMIC_NONBLOCKING_COMMIT
+
+/* drm_atomic_private_obj_init() has p,p,p,p interface */
+#undef HAVE_DRM_ATOMIC_PRIVATE_OBJ_INIT_P_P_P_P
+
+/* whether struct drm_atomic_state have async_update */
+#undef HAVE_DRM_ATOMIC_STATE_ASYNC_UPDATE
+
+/* drm_atomic_state->plane_states is available */
+#undef HAVE_DRM_ATOMIC_STATE_PLANE_STATES
+
+/* drm_atomic_state_put() is available */
+#undef HAVE_DRM_ATOMIC_STATE_PUT
+
+/* include/drm/drm_atomic_uapi.h is available */
+#undef HAVE_DRM_ATOMIC_UAPI_HEADER
+
+/* whether drm_audio_component_header is defined */
+#undef HAVE_DRM_AUDIO_COMPONENT_HEADER
+
+/* drm/drm_auth.h is available */
+#undef HAVE_DRM_AUTH_H
+
+/* drm_calc_vbltimestamp_from_scanoutpos() drop mode arg */
+#undef HAVE_DRM_CALC_VBLTIMESTAMP_FROM_SCANOUTPOS_DROP_MOD_ARG
+
+/* drm_calc_vbltimestamp_from_scanoutpos() have the crtc & mode arg */
+#undef HAVE_DRM_CALC_VBLTIMESTAMP_FROM_SCANOUTPOS_HAVE_CRTC_MODE_ARG
+
+/* drm_calc_vbltimestamp_from_scanoutpos() remove crtc arg */
+#undef HAVE_DRM_CALC_VBLTIMESTAMP_FROM_SCANOUTPOS_HAVE_MODE_ARG
+
+/* drm_calc_vbltimestamp_from_scanoutpos() use ktime_t arg */
+#undef HAVE_DRM_CALC_VBLTIMESTAMP_FROM_SCANOUTPOS_USE_KTIMER_T_ARG
+
+/* drm_calloc_large() is available */
+#undef HAVE_DRM_CALLOC_LARGE
+
+/* drm_color_lut structure is defined */
+#undef HAVE_DRM_COLOR_LUT
+
+/* drm_color_lut_size() is available */
+#undef HAVE_DRM_COLOR_LUT_SIZE
+
+/* drm_connector_attach_encoder() is available */
+#undef HAVE_DRM_CONNECTOR_ATTACH_ENCODER
+
+/* drm_connector_list_iter_begin() is available */
+#undef HAVE_DRM_CONNECTOR_LIST_ITER_BEGIN
+
+/* drm_connector_put() is available */
+#undef HAVE_DRM_CONNECTOR_PUT
+
+/* drm_connector_set_path_property() is available */
+#undef HAVE_DRM_CONNECTOR_SET_PATH_PROPERTY
+
+/* drm_connector_update_edid_property() is available */
+#undef HAVE_DRM_CONNECTOR_UPDATE_EDID_PROPERTY
+
+/* ddrm_atomic_stat has __drm_crtcs_state */
+#undef HAVE_DRM_CRTCS_STATE_MEMBER
+
+/* drm_crtc_accurate_vblank_count() is available */
+#undef HAVE_DRM_CRTC_ACCURATE_VBLANK_COUNT
+
+/* drm_crtc_force_disable_all() is available */
+#undef HAVE_DRM_CRTC_FORCE_DISABLE_ALL
+
+/* drm_crtc_init_with_planes() wants name */
+#undef HAVE_DRM_CRTC_INIT_WITH_PLANES_VALID_WITH_NAME
+
+/* drm_debug_printer() function is available */
+#undef HAVE_DRM_DEBUG_PRINTER
+
+/* dev_device->driver_features is available */
+#undef HAVE_DRM_DEVICE_DRIVER_FEATURES
+
+/* drm_device->filelist_mutex is available */
+#undef HAVE_DRM_DEVICE_FILELIST_MUTEX
+
+/* drm/drm_device.h is available */
+#undef HAVE_DRM_DEVICE_H
+
+/* drm_dev_put() is available */
+#undef HAVE_DRM_DEV_PUT
+
+/* drm_dev_unplug() is available */
+#undef HAVE_DRM_DEV_UNPLUG
+
+/* display_info->hdmi.scdc.scrambling are available */
+#undef HAVE_DRM_DISPLAY_INFO_HDMI_SCDC_SCRAMBLING
+
+/* drm_dp_cec* correlation functions are available */
+#undef HAVE_DRM_DP_CEC_CORRELATION_FUNCTIONS
+
+/* drm_dp_mst_allocate_vcpi() has p,p,i,i interface */
+#undef HAVE_DRM_DP_MST_ALLOCATE_VCPI_P_P_I_I
+
+/* drm_dp_mst_{get,put}_port_malloc() is available */
+#undef HAVE_DRM_DP_MST_GET_PUT_PORT_MALLOC
+
+/* struct drm_dp_mst_topology_cbs has hotplug member */
+#undef HAVE_DRM_DP_MST_TOPOLOGY_CBS_HOTPLUG
+
+/* drm_driver_feature DRIVER_ATOMIC is available */
+#undef HAVE_DRM_DRV_DRIVER_ATOMIC
+
+/* drm_driver_feature DRIVER_IRQ_SHARED is available */
+#undef HAVE_DRM_DRV_DRIVER_IRQ_SHARED
+
+/* drm_driver_feature DRIVER_SYNCOBJ_TIMELINE is available */
+#undef HAVE_DRM_DRV_DRIVER_SYNCOBJ_TIMELINE
+
+/* drm_encoder_find() wants file_priv */
+#undef HAVE_DRM_ENCODER_FIND_VALID_WITH_FILE
+
+/* drm_encoder_init() wants name */
+#undef HAVE_DRM_ENCODER_INIT_VALID_WITH_NAME
+
+/* DRM_ERRROR is defined in drmP.h */
+#undef HAVE_DRM_ERROR_IN_DRMP_H
+
+/* drm_fb_helper_cfb_{fillrect/copyarea/imageblit}() is available */
+#undef HAVE_DRM_FB_HELPER_CFB_XX
+
+/* drm_fb_helper_fill_info() is available */
+#undef HAVE_DRM_FB_HELPER_FILL_INFO
+
+/* whether drm_fb_helper_lastclose() is available */
+#undef HAVE_DRM_FB_HELPER_LASTCLOSE
+
+/* drm_fb_helper_remove_conflicting_pci_framebuffers() is available */
+#undef HAVE_DRM_FB_HELPER_REMOVE_CONFLICTING_PCI_FRAMEBUFFERS
+
+/* drm_fb_helper_set_suspend_unlocked() is available */
+#undef HAVE_DRM_FB_HELPER_SET_SUSPEND_UNLOCKED
+
+/* drm_fb_helper_{alloc/unregister}_fbi is available */
+#undef HAVE_DRM_FB_HELPER_XX_FBI
+
+/* drm/drm_file.h is available */
+#undef HAVE_DRM_FILE_H
+
+/* whether struct drm_framebuffer have format */
+#undef HAVE_DRM_FRAMEBUFFER_FORMAT
+
+/* drm_free_large() is available */
+#undef HAVE_DRM_FREE_LARGE
+
+/* drm_gem_object_put_unlocked() is available */
+#undef HAVE_DRM_GEM_OBJECT_PUT_UNLOCKED
+
+/* drm_get_format_name() is available */
+#undef HAVE_DRM_GET_FORMAT_NAME
+
+/* ddrm_get_max_iome() is available */
+#undef HAVE_DRM_GET_MAX_IOMEM
+
+/* drm_hdmi_avi_infoframe_from_display_mode() has p,p,b interface */
+#undef HAVE_DRM_HDMI_AVI_INFOFRAME_FROM_DISPLAY_MODE_P_P_B
+
+/* drm_hdmi_avi_infoframe_from_display_mode() has p,p,p interface */
+#undef HAVE_DRM_HDMI_AVI_INFOFRAME_FROM_DISPLAY_MODE_P_P_P
+
+/* drm_hdmi_vendor_infoframe_from_display_mode() has p,p,p interface */
+#undef HAVE_DRM_HDMI_VENDOR_INFOFRAME_FROM_DISPLAY_MODE_P_P_P
+
+/* drm_helper_force_disable_all() is available */
+#undef HAVE_DRM_HELPER_FORCE_DISABLE_ALL
+
+/* drm_is_current_master() is available */
+#undef HAVE_DRM_IS_CURRENT_MASTER
+
+/* drm_malloc_ab() is available */
+#undef HAVE_DRM_MALLOC_AB
+
+/* whether drm_mm_insert_mode is available */
+#undef HAVE_DRM_MM_INSERT_MODE
+
+/* drm_mm_print() is available */
+#undef HAVE_DRM_MM_PRINT
+
+/* drm_modeset_lock_all_ctx() is available */
+#undef HAVE_DRM_MODESET_LOCK_ALL_CTX
+
+/* drm_mode_is_420_xxx() is available */
+#undef HAVE_DRM_MODE_IS_420_XXX
+
+/* drm_need_swiotlb() is available */
+#undef HAVE_DRM_NEED_SWIOTLB
+
+/* drm_printer is available */
+#undef HAVE_DRM_PRINTER
+
+/* drm/drm_print.h is available */
+#undef HAVE_DRM_PRINT_H
+
+/* drm/drm_probe_helper.h is available */
+#undef HAVE_DRM_PROBE_HELPER_H
+
+/* drm_send_event_locked() function is available */
+#undef HAVE_DRM_SEND_EVENT_LOCKED
+
+/* drm_syncobj_fence_get() is available */
+#undef HAVE_DRM_SYNCOBJ_FENCE_GET
+
+/* drm_syncobj_find_fence() is available */
+#undef HAVE_DRM_SYNCOBJ_FIND_FENCE
+
+/* drm/drm_util.h is available */
+#undef HAVE_DRM_UTIL_H
+
+/* fb_info_apertures() is available */
+#undef HAVE_FB_INFO_APERTURES
+
+/* fb_ops->fb_debug_xx is available */
+#undef HAVE_FB_OPS_FB_DEBUG_XX
+
+/* fence-array.h is available */
+#undef HAVE_FENCE_ARRAY_H
+
+/* file_inode() is available */
+#undef HAVE_FILE_INODE
+
+/* drm_mode_object->free_cb is available */
+#undef HAVE_FREE_CB_IN_STRUCT_DRM_MODE_OBJECT
+
+/* drm_driver->gem_free_object_unlocked() is available */
+#undef HAVE_GEM_FREE_OBJECT_UNLOCKED_IN_DRM_DRIVER
+
+/* get_scanout_position has struct drm_display_mode arg */
+#undef HAVE_GET_SCANOUT_POSITION_HAS_DRM_DISPLAY_MODE_ARG
+
+/* get_scanout_position has timestamp arg */
+#undef HAVE_GET_SCANOUT_POSITION_HAS_TIMESTAMP_ARG
+
+/* get_scanout_position return bool */
+#undef HAVE_GET_SCANOUT_POSITION_RETURN_BOOL
+
+/* get_vblank_timestamp has bool in_vblank_irq arg */
+#undef HAVE_GET_VBLANK_TIMESTAMP_IN_DRM_DRIVER_HAS_BOOL_IN_VBLANK_IRQ
+
+/* get_vblank_timestamp has ktime_t arg */
+#undef HAVE_GET_VBLANK_TIMESTAMP_IN_DRM_DRIVER_HAS_KTIME_T
+
+/* get_vblank_timestamp return bool */
+#undef HAVE_GET_VBLANK_TIMESTAMP_IN_DRM_DRIVER_RETURN_BOOL
+
+/* hlist_for_each_entry with 4args is available */
+#undef HAVE_HLIST_FOR_EACH_ENTRY_WITH_4ARGS
+
+/* hw_perf_event conf member is defined */
+#undef HAVE_HW_PERF_EVENT_CONF_MEMBER
+
+/* struct i2c_lock_operations is defined */
+#undef HAVE_I2C_LOCK_OPERATIONS_STRUCT
+
+/* idr_remove return void pointer */
+#undef HAVE_IDR_REMOVE_RETURN_VOID_POINTER
+
+/* whether INTERVAL_TREE_DEFINE() is defined */
+#undef HAVE_INTERVAL_TREE_DEFINE
+
+/* register_shrinker() returns integer */
+#undef HAVE_INT_REGISTER_SHRINKER
+
+/* in_compat_syscall is defined */
+#undef HAVE_IN_COMPAT_SYSCALL
+
+/* iommu_get_domain_for_dev() is available */
+#undef HAVE_IOMMU_GET_DOMAIN_FOR_DEV
+
+/* IRQ translation domains exist */
+#undef HAVE_IRQ_DOMAIN
+
+/* kallsyms_lookup_name is available */
+#undef HAVE_KALLSYMS_LOOKUP_NAME
+
+/* kfifo_new.h is available */
+#undef HAVE_KFIFO_NEW_H
+
+/* kmap_atomic() have one argument */
+#undef HAVE_KMAP_ATOMIC_ONE_ARG
+
+/* kobj_to_dev() is available */
+#undef HAVE_KOBJ_TO_DEV
+
+/* kref_read() function is available */
+#undef HAVE_KREF_READ
+
+/* ksys_sync_helper() is available */
+#undef HAVE_KSYS_SYNC_HELPER
+
+/* kthread_{park/unpark/parkme/should_park}() is available */
+#undef HAVE_KTHREAD_PARK_XX
+
+/* ktime_get_boottime_ns() is available */
+#undef HAVE_KTIME_GET_BOOTTIME_NS
+
+/* ktime_get_ns is available */
+#undef HAVE_KTIME_GET_NS
+
+/* ktime_get_raw_ns is available */
+#undef HAVE_KTIME_GET_RAW_NS
+
+/* ktime_get_real_seconds() is available */
+#undef HAVE_KTIME_GET_REAL_SECONDS
+
+/* ktime_set() to take 64bit seconds value */
+#undef HAVE_KTIME_SET
+
+/* kvcalloc() is available */
+#undef HAVE_KVCALLOC
+
+/* kvfree() is available */
+#undef HAVE_KVFREE
+
+/* kvmalloc_array() is available */
+#undef HAVE_KVMALLOC_ARRAY
+
+/* kv[mz]alloc() are available */
+#undef HAVE_KVZALLOC_KVMALLOC
+
+/* whether linux/bits.h is available */
+#undef HAVE_LINUX_BITS_H
+
+/* whether linux/nospec.h is available */
+#undef HAVE_LINUX_NOSPEC_H
+
+/* list_bulk_move_tail() is available */
+#undef HAVE_LIST_BULK_MOVE_TAIL
+
+/* zone->managed_pages is defined */
+#undef HAVE_MANAGED_PAGES_IN_STRUCT_ZONE
+
+/* memalloc_nofs_save() and memalloc_nofs_restore() are available */
+#undef HAVE_MEMALLOC_NOFS_SAVE
+
+/* mmgrab() is available */
+#undef HAVE_MMGRAB
+
+/* mmu_notifier_call_srcu() is available */
+#undef HAVE_MMU_NOTIFIER_CALL_SRCU
+
+/* struct mmu_notifier_range is available */
+#undef HAVE_MMU_NOTIFIER_RANGE
+
+/* mmu_notifier_range_blockable() is available */
+#undef HAVE_MMU_NOTIFIER_RANGE_BLOCKABLE
+
+/* mmu_notifier_range->flags is available */
+#undef HAVE_MMU_NOTIFIER_RANGE_FLAGS
+
+/* mm_access() is available */
+#undef HAVE_MM_ACCESS
+
+/* linux/sched/mm.h is available */
+#undef HAVE_MM_H
+
+/* linux/overflow.h is available */
+#undef HAVE_OVERFLOW_H
+
+/* pcie_bandwidth_available() is available */
+#undef HAVE_PCIE_BANDWIDTH_AVAILABLE
+
+/* pci_enable_atomic_ops_to_root() exist */
+#undef HAVE_PCIE_ENABLE_ATOMIC_OPS_TO_ROOT
+
+/* pcie_get_speed_cap() and pcie_get_width_cap() exist */
+#undef HAVE_PCIE_GET_SPEED_AND_WIDTH_CAP
+
+/* pci_dev_id() is available */
+#undef HAVE_PCI_DEV_ID
+
+/* pci_is_thunderbolt_attached() is available */
+#undef HAVE_PCI_IS_THUNDERBOLD_ATTACHED
+
+/* pci_pcie_type() exist */
+#undef HAVE_PCI_PCIE_TYPE
+
+/* pci_upstream_bridge() is available */
+#undef HAVE_PCI_UPSTREAM_BRIDGE
+
+/* whether perf_event_update_userpage is available */
+#undef HAVE_PERF_EVENT_UPDATE_USERPAGE
+
+/* pfn_t is defined */
+#undef HAVE_PFN_T
+
+/* vm_insert_mixed() wants pfn_t arg */
+#undef HAVE_PFN_T_VM_INSERT_MIXED
+
+/* ptrace_parent() is available */
+#undef HAVE_PTRACE_PARENT
+
+/* kremove_conflicting_framebuffers() returns int */
+#undef HAVE_REMOVE_CONFLICTING_FRAMEBUFFERS_RETURNS_INT
+
+/* request_firmware_direct() is available */
+#undef HAVE_REQUEST_FIRMWARE_DIRECT
+
+/* reservation_object_add_shared_fence() is available */
+#undef HAVE_RESERVATION_OBJECT_ADD_SHARED_FENCE
+
+/* reservation_object_copy_fences() is available */
+#undef HAVE_RESERVATION_OBJECT_COPY_FENCES
+
+/* reservation_object_lock() is available */
+#undef HAVE_RESERVATION_OBJECT_LOCK
+
+/* reservation_object_lock_interruptible() is available */
+#undef HAVE_RESERVATION_OBJECT_LOCK_INTERRUPTIBLE
+
+/* reservation_object_reserve_shared() is available */
+#undef HAVE_RESERVATION_OBJECT_RESERVE_SHARED
+
+/* reservation_object_test_signaled_rcu() is available */
+#undef HAVE_RESERVATION_OBJECT_TEST_SIGNALED_RCU
+
+/* reservation_object_trylock() is available */
+#undef HAVE_RESERVATION_OBJECT_TRYLOCK
+
+/* reservation_object_wait_timeout_rcu() is available */
+#undef HAVE_RESERVATION_OBJECT_WAIT_TIMEOUT_RCU
+
+/* linux/sched/clock.h is available */
+#undef HAVE_SCHED_CLOCK_H
+
+/* linux/sched/mm.h is available */
+#undef HAVE_SCHED_MM_H
+
+/* sched/types.h is available */
+#undef HAVE_SCHED_TYPES_H
+
+/* seq_hex_dump() is available */
+#undef HAVE_SEQ_HEX_DUMP
+
+/* drm_driver have set_busid */
+#undef HAVE_SET_BUSID_IN_STRUCT_DRM_DRIVER
+
+/* asm/set_memory.h is available */
+#undef HAVE_SET_MEMORY_H
+
+/* linux/sched/signal.h is available */
+#undef HAVE_SIGNAL_H
+
+/* whether si_mem_available() is available */
+#undef HAVE_SI_MEM_AVAILABLE
+
+/* strscpy() is available */
+#undef HAVE_STRSCPY
+
+/* system_highpri_wq is declared */
+#undef HAVE_SYSTEM_HIGHPRI_WQ_DECLARED
+
+/* system_highpri_wq is exported */
+#undef HAVE_SYSTEM_HIGHPRI_WQ_EXPORTED
+
+/* linux/sched/task.h is available */
+#undef HAVE_TASK_H
+
+/* timer_setup() is available */
+#undef HAVE_TIMER_SETUP
+
+/* interval_tree_insert have struct rb_root_cached */
+#undef HAVE_TREE_INSERT_HAVE_RB_ROOT_CACHED
+
+/* __poll_t is available */
+#undef HAVE_TYPE___POLL_T
+
+/* vga_switcheroo_handler->get_client_id() return int */
+#undef HAVE_VGA_SWITCHEROO_GET_CLIENT_ID_RETURN_INT
+
+/* vga_switcheroo_set_dynamic_switch() exist */
+#undef HAVE_VGA_SWITCHEROO_SET_DYNAMIC_SWITCH
+
+/* Use unsigned int pipe in public API */
+#undef HAVE_VGA_USE_UNSIGNED_INT_PIPE
+
+/* vmf_insert_*() are available */
+#undef HAVE_VMF_INSERT
+
+/* vm_fault->{address/vam} is available */
+#undef HAVE_VM_FAULT_ADDRESS_VMA
+
+/* wait_queue_entry_t exists */
+#undef HAVE_WAIT_QUEUE_ENTRY
+
+/* WQ_HIGHPRI is available */
+#undef HAVE_WQ_HIGHPRI
+
+/* whether zone_managed_pages() is available */
+#undef HAVE_ZONE_MANAGED_PAGES
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
